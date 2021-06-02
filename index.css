@@ -52,12 +52,12 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    color: #4F4F4F
-    /*font goes here*/
+    color: #4F4F4F;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
-    /*font goes here*/
+    font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
 }
 
@@ -79,7 +79,7 @@ nav a {
     display: inline-block;
     padding: 1% 0;
     width: 10%;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     color: #fff;
 }
@@ -107,7 +107,7 @@ nav a {
 
 .left img {
     border-radius: 50%;
-    width: 70%;
+    width: 60%;
 }
 
 .left, .right {
@@ -124,6 +124,35 @@ nav a {
     margin-left: 3%;
     position: absolute;
     top: 40%;
-    
 }
+
+div h2 {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.right div p {
+    padding: 0 10rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+/*Info section styling*/
+
+.info div{
+    margin: 0 5%;
+    background-color: #DDB9A3;
+    padding: 1rem 3rem;
+}
+.info div p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#infoP1 {
+    margin-bottom: 1rem;
+}
+
+/* Graphic section */
 
