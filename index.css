@@ -58,7 +58,7 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
+    font-size: 8rem;
 }
 
 section {
@@ -77,7 +77,7 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 1% 0;
+    padding: .5% 0;
     width: 10%;
     border-radius: 20px;
     text-align: center;
@@ -97,6 +97,24 @@ nav a {
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #4F4F4F;
+    transition: 1s;
+}
+
+.orange:hover {
+    border: 3px solid #FF764E;
+}
+
+.blue:hover {
+    border: 3px solid #5ED3EB;
+}
+
+.yellow:hover {
+    border: 3px solid #FFCD69;
 }
 
 /*Top Section Styles*/
@@ -197,5 +215,9 @@ div h2 {
 }
 
 footer {
+    background-color: #F9E7DC;
+}
+
+.footNav a:hover {
     background-color: #F9E7DC;
 }
